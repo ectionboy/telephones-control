@@ -26,11 +26,35 @@
             "imgUrl":"",
             "phones":{
                 "id":"5",
+                "owner":"Chdsda Mia",
                 "model":"Iphone 11pro",
                 "imgUrl":"",
                 "description":"",
                 "address":"302"
             }
         }
-    }
+    },
+    "phones":[
+                {"id":"1",
+                "group":"1",
+                "owner":"Karp Oleg",
+                "model":"Iphone 10s",
+                "imgUrl":"https://cdn.new-brz.net/app/public/models/MT9G2FS-A/large/w/180917160012571066.webp",
+                "description":"123",
+                "address":"101"},
+                {"id":"2",
+                "group":"2",
+                "owner":"Cha Mia",
+                "model":"Iphone 12",
+                "imgUrl":"https://estore.ua/media/catalog/product/cache/8/image/650x650/9df78eab33525d08d6e5fb8d27136e95/i/p/iphone-12-black_1_.jpeg",
+                "description":"321",
+                "address":"105"},
+                {"id":"3",
+                "group":"3",
+                "owner":"Aha ddMia",
+                "model":"Iphone 12",
+                "imgUrl":"https://estore.ua/media/catalog/product/cache/8/image/650x650/9df78eab33525d08d6e5fb8d27136e95/i/p/iphone-12-black_1_.jpeg",
+                "description":"322221",
+                "address":"205"}
+            ]
 }
