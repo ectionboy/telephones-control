@@ -1,12 +1,12 @@
 import React from "react";
 
-const Footer = () => {
+const GroupMenu = () => {
 	return (
 		<div>
+			GroupMenu
 			<hr />
-			Footer
 		</div>
 	);
 };
 
-export default Footer;
+export default GroupMenu;

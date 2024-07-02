@@ -1,0 +1,28 @@
+{
+    "numberOfGroups": "4",
+
+    "groups": {
+        "first": {
+            "url":"first",
+            "imgUrl":"",
+            "phones":{
+                "id":"1",
+                "model":"Iphone 10s",
+                "imgUrl":"",
+                "description":"",
+                "address":"101"
+            }
+        },
+        "second": {
+            "url":"second",
+            "imgUrl":"",
+            "phones":{
+                "id":"5",
+                "model":"Iphone 11pro",
+                "imgUrl":"",
+                "description":"",
+                "address":"302"
+            }
+        }
+    }
+}

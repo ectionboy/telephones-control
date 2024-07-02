@@ -6,18 +6,19 @@ import GroupFirst from './components/Group/GroupFirst/GroupFirst';
 import GroupSecond from './components/Group/GroupSecond/GroupSecond';
 import GroupThird from './components/Group/GroupThird/GroupThird';
 import GroupFourth from './components/Group/GroupFourth/GroupFourth';
+import LayoutGroup from './components/LayoutGroup/LayoutGroup';
 
 export const App = () => {
   return (
     <Routes>
       <Route path="/" element={<Layout><Home /></Layout>} />
-        <Route path="/group/first" element={<Layout><GroupFirst /></Layout>} />
-        <Route path="/group/second" element={<Layout><GroupSecond /></Layout>} />
-        <Route path="/group/third" element={<Layout><GroupThird /></Layout>} />
-        <Route path="/group/fourth" element={<Layout><GroupFourth /></Layout>} />
+        <Route path="/group/first" element={<LayoutGroup><GroupFirst /></LayoutGroup>} />
+        <Route path="/group/second" element={<LayoutGroup><GroupSecond /></LayoutGroup>} />
+        <Route path="/group/third" element={<LayoutGroup><GroupThird /></LayoutGroup>} />
+        <Route path="/group/fourth" element={<LayoutGroup><GroupFourth /></LayoutGroup>} />
 
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
 };   
-   {/* <Route path="/about" element={<Layout><About /></Layout>} /> */}
+  //  {/* <Route path="/about" element={<Layout><About /></Layout>} /> */}

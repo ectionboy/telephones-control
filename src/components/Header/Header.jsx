@@ -3,28 +3,29 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
 	return (
-		<>
+		<header>
 			<div>Telephones control</div>
 			<nav>
 				<ul>
-        <li>
+					<li>
 						<NavLink to="/">Головна</NavLink>
 					</li>
 					<li>
-						<NavLink to="">1</NavLink>
+						<NavLink to="/group/first">1</NavLink>
 					</li>
 					<li>
-						<NavLink to="">2</NavLink>
+						<NavLink to="/group/second">2</NavLink>
 					</li>
 					<li>
-						<NavLink to="">3</NavLink>
+						<NavLink to="/group/third">3</NavLink>
 					</li>
 					<li>
-						<NavLink to="">4</NavLink>
+						<NavLink to="/group/fourth">4</NavLink>
 					</li>
 				</ul>
 			</nav>
-		</>
+			<hr />
+		</header>
 	);
 };
 
