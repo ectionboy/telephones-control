@@ -1,7 +1,7 @@
 import React from "react";
 
 const PhonesCard = ({ phone }) => {
-	console.log(phone);
+	// console.log(phone);
 	return (
 		<div>
 			<br />
