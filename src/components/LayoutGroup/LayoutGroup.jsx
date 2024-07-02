@@ -3,10 +3,9 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import GroupMenu from "../GroupMenu/GroupMenu";
 
-import data from "../../db/data.json"
+
 
 const LayoutGroup = ({ children }) => {
-    console.log(data.groups)
 	return (
 		<>
 			<Header />
