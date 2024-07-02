@@ -1,7 +1,16 @@
 import React, { useEffect, useState } from "react";
 import db from "../../db/data.json";
+import { useDispatch } from "react-redux";
+import { fetchContacts } from "../../redux/phones/operations";
 
 const GroupMenu = () => {
+	const dispatch = useDispatch();
+
+
+	useEffect(() => {
+		dispatch(fetchContacts());
+	  }, [dispatch]);
+
 	const [filtered, setFiltered] = useState([]);
 	const [group, setGroup] = useState("0");
 	const data = db.phones;

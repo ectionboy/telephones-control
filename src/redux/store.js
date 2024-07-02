@@ -1,7 +1,22 @@
-import { configureStore } from "@reduxjs/toolkit";
-import { phones } from "./reducer";
+import { reducer } from "./reducer";
+import { configureStore } from '@reduxjs/toolkit'
+import {
+	persistStore,
+	FLUSH,
+	REHYDRATE,
+	PAUSE,
+	PERSIST,
+	PURGE,
+	REGISTER,
+} from 'redux-persist'
 
 export const store = configureStore({
-  reducer: {
-    phones: phones  },
-});
+	reducer,
+	middleware: (getDefaultMiddleware) =>
+		getDefaultMiddleware({
+			serializableCheck: {
+				ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
+			},
+		}),
+})
+    export const persistor = persistStore(store)

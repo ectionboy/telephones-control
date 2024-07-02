@@ -1,5 +1,7 @@
-const phonesInitialState = [];
+import { phonesReducer } from "./phones/slice";
 
-export const phonesReducer = (state = phonesInitialState, action) => {
-  // Reducer code
-};
+
+
+export const reducer = {
+  phones: phonesReducer
+}
